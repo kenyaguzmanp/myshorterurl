@@ -11,7 +11,6 @@ var shortUrl = require('./models/shortUrl');
 
 dotenv.config();
 //mongodb
-//var mongoDB = 'mongodb://reny:261268elvis@ds155587.mlab.com:55587/shorturl';
 mongoose.connect(process.env.MONGODB_URI);
 //mongoose.connect(mongoDB);
 var db = mongoose.connection;
