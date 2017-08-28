@@ -37,7 +37,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 //app.use(express.static(path.join(__dirname, 'node_modules')));
 app.use('/', index);
 app.use('/users', users);
-// app.use('/newurl', newurl);
+ app.use('/newurl', newurl);
 //connect to database
 //mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/shortUrls');
 

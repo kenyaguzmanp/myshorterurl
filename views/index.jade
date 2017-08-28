@@ -20,6 +20,12 @@ body.text-center
   h4
     a(href="https://www.freecodecamp.com" target="blank") Free Code Camp: APIs and Microservices
   h5 Technologies: NodeJs, Express, MongoDB, Mongoose, JavaScript, HTML, CSS, and Bootstrap.
+  br
+  h4 How to use
+  ol
+    li Write the url in the input bellow
+    li It will send you an object with a code in the "shorterUrl"	attribute
+    li Put the code in the path. It will redirect you to the original url 
   .section(ng-controller="shortAppCtrl")
   input(type="text", placeholder="Enter URL" ng-model="urlToShorten")
   br
